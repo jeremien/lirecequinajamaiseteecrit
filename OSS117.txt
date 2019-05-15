@@ -1,0 +1,17 @@
+<<<<<<< HEAD
+
+j'aime le bruit blanc de l'eau
+
+les carottes sont cuites?
+
+=======
+j'aime les panoramas
+<<<<<<< HEAD
+
+j'aime le bruit blanc de l'eau
+
+l'eau tourbillonante rend les gens agréables
+=======
+j'aime le bruit blanc de l'eau sur la mer calme
+>>>>>>> 15c9b8a2974007984be97bb98189cfaf0deece5e
+>>>>>>> 3a0eb785badd1bb1a8a25005bab18d1dffcecc13

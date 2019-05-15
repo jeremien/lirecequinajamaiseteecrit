@@ -1,0 +1,8 @@
+<<<<<<< HEAD
+
+hello world
+
+=======
+hello
+j'adore la ratatouille de ma grand-mère
+>>>>>>> 3a0eb785badd1bb1a8a25005bab18d1dffcecc13
