@@ -1,9 +1,0 @@
-salut les copains
-
-c'est super
-ça marche
-
-<<<<<<< HEAD
-=======
-marcher c'est fatiguant, mieux vaut faire de l'ordinateur
->>>>>>> 3a0eb785badd1bb1a8a25005bab18d1dffcecc13
