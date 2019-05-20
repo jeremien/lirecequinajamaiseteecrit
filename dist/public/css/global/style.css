@@ -19,7 +19,9 @@ ul{ list-style: none; }
 
 a{ color: currentColor; text-decoration: none; }
 
-
+img { 
+    width: 100%;
+}
 
 
 /* CHAPTER TITLE ----------------------------------------- */
@@ -30,10 +32,10 @@ a{ color: currentColor; text-decoration: none; }
 #introduction h1,
 #toc h1,
 #colophon h1{
-    font-family: 'permian';
-    font-weight: bold;
-    text-transform: uppercase;
-    font-size: 1rem;
+    font-family: 'Poppins';
+    font-weight: 600;
+    /* text-transform: uppercase; */
+    font-size: 1.5rem;
     line-height: var(--baseline);
     margin-bottom: 12px;
     margin-top: calc(var(--baseline)*6);
@@ -51,7 +53,7 @@ a{ color: currentColor; text-decoration: none; }
 body { counter-reset: chapter; }
 .chapter h1 { counter-increment: chapter; }
 .chapter h1::before { 
-  content: counter(chapter, lower-roman);
+  content: counter(chapter, decimal);
   font-weight: normal;
 }
 
@@ -71,7 +73,7 @@ p, li{
 
 p{
     text-indent: 1rem;
-    text-align: justify;
+    text-align: left;
 }
 
 /* blockquote and list */

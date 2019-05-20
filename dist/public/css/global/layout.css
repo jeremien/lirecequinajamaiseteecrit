@@ -18,7 +18,7 @@
         /* page number */
         @top-left-corner {
             content: counter(page);
-            font-family: 'hk-grotesk';
+            font-family: 'Poppins';
             font-weight: 600;
             padding-right: 12mm;
             vertical-align: top;
@@ -37,7 +37,7 @@
         way 1 : keep HTML element and style inside the running header, remove the element from the flux  */
     #booktitle { 
         position: running(booktitle); 
-        font-family: 'hk-grotesk';
+        font-family: 'Poppins';
         font-weight: 600;
         text-indent: 0;
     }
@@ -52,7 +52,7 @@
         /* page number */
         @top-right-corner {
             content: counter(page);
-            font-family: 'hk-grotesk';
+            font-family: 'Poppins';
             font-weight: 600;
             padding-left: 12mm;
             vertical-align: top;
@@ -62,7 +62,7 @@
         /* running header (chapter title)  */
         @top-right {
             content: string(chapTitle);
-            font-family: 'hk-grotesk';
+            font-family: 'Poppins';
             font-weight: 600;
             vertical-align: top;
             padding-top: 25px;

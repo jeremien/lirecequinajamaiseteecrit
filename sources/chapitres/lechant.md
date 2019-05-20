@@ -1,4 +1,4 @@
-# le chant des données
+# Le chant des données
 
 À l’ère de l’hégémonie du «digital», de nouveaux enjeux de pouvoir
 apparaissent. En effet, alors que les gouvernements prennent
@@ -8,6 +8,8 @@ par certaines sociétés privées. Ces dernières ont su développer,
 parallèlement à des moyens de stockage appropriés, des systèmes
 de lecture pour traiter des masses de données en constant
 accroissement, le big data.
+
+![image](http://localhost:3000/images/nicolas/chant.jpg)
 
 L’ordinateur, média composite par excellence, peut relayer des
 données issues de tous types de média discrétisé,de comportement;
