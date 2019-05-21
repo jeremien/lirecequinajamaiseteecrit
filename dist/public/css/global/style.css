@@ -9,7 +9,7 @@
 }
 
 * { 
-    font-size: 1rem;
+    font-size: 0.8rem;
     line-height: 22px;
     margin: 0;
     padding: 0;
@@ -19,9 +19,9 @@ ul{ list-style: none; }
 
 a{ color: currentColor; text-decoration: none; }
 
-img { 
+/* img { 
     width: 100%;
-}
+} */
 
 
 /* CHAPTER TITLE ----------------------------------------- */
@@ -35,7 +35,7 @@ img {
     font-family: 'Poppins';
     font-weight: 600;
     /* text-transform: uppercase; */
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     line-height: var(--baseline);
     margin-bottom: 12px;
     margin-top: calc(var(--baseline)*6);
@@ -52,28 +52,41 @@ img {
 /* counter */
 body { counter-reset: chapter; }
 .chapter h1 { counter-increment: chapter; }
-.chapter h1::before { 
+/* .chapter h1::before { 
   content: counter(chapter, decimal);
   font-weight: normal;
-}
+} */
 
 
-.chapter h1::before{
+/* .chapter h1::before{
     font-size: 2rem;
     line-height: 0;
     padding-right: var(--baseline);
-}
+} */
 
 
 /* TEXT ---------------------------------------------------- */
 
-p, li{
-    font-family: 'permian';
+li, h2 { 
+    font-size: 1rem;
+    font-family: 'Poppins';
+    font-weight: 600;
 }
 
-p{
-    text-indent: 1rem;
+h2 {
+    margin-top: 2mm;
+}
+
+p, em {  
+    font-family: 'permian';
+    font-size: 1rem;
+    /* text-indent: 1rem; */
     text-align: left;
+}
+
+p img {
+    width: 80%;
+    padding: 5mm;
 }
 
 /* blockquote and list */
