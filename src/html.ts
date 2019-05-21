@@ -42,8 +42,8 @@ class Html {
     private chapitreName(name: string): string {
         try {
             const re = /.*/m;
-            const str = name.match(re)[0];
-            const parsedName = str.slice(2);
+            const str = name.match(re);
+            const parsedName = str[0].slice(2);
             if (parsedName) {
                 return parsedName.trim();
             }
@@ -99,9 +99,8 @@ class Html {
 
     private introduction(): string {
         let introduction: string = fs.readFileSync(this.srcFolder + 'introduction.md', 'utf8');
-        const introductionId = this.chapitreId(introduction);
         introduction = this.converter.makeHtml(introduction);
-        const result: string = `<section id="${introductionId}"> ${introduction} </section>`;
+        const result: string = '<section id="introduction">' + introduction + '</section>';
         return result;
     }
 }
