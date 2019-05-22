@@ -12,7 +12,7 @@ accroissement, le big data.
 ![image](http://localhost:3000/images/nicolas/chant.jpg)
 
 L’ordinateur, média composite par excellence, peut relayer des
-données issues de tous types de média discrétisé,de comportement;
+données issues de tous types de média discrétisé, de comportement;
 provenant de toutes sortes d’individu ou de groupe via internet.
 Il est universellement utilisé, et en Europe, 80% de la population
 pénètre régulièrement internet (www.blogdumoderateur.com).
@@ -38,8 +38,8 @@ données, à des fins ludiques, consistant en un système de lecture
 musical. On sera invité à récupérer des données
 provenant de comportements d’utilisateurs, des messages sur des
 réseaux, pour les faire lire (de manière audible) par le
-programme, grâce à un moteur de synthèse vocale. En début de se-
-ssion, il pourra charger une production instrumentale sur laquelle
+programme, via un moteur de synthèse vocale. En début de se-
+ssion, on pourra charger une production instrumentale sur laquelle
 viendra «chanter» le programme, puis grâce à un contrôleur,
 changer la vitesse d’élocution, la hauteur des notes ou encore jouer
 des accords.
@@ -62,14 +62,14 @@ destinnés à être lus par le moteur, ainsi qu’une production
 instrumentale disponnible sur youtube. À l’issue de cette première
 phase d’initialisation, deux fichiers sont créés, un texte
 et une piste audio. Cette dernière sera analysée avant d’être
-lue, afin d’en extraire le tempo.
+jouée, afin d’en extraire le tempo.
 Une vitesse de référence (jeu à la noire) est alors calculée pour
 le moteur de synthèse vocale, alors calibré sur l’instrumentale.
 Cette vitesse sera ensuite modulable de façon à pouvoir jouer
 différents rythmes (ronde, croche...), des multiple du rythme
 de référence.
-Une fois cette phase d’initialisation achevée, l’instrumentale
-est jouée automatiquement. C’est la phase de jeu et l’on
+Une fois cette phase d’initialisation achevée, la lecture de 
+l'instrumentale débute automatiquement. C’est la phase de jeu et l’on
 contrôle le moteur de synthèse au clavier.
 
 ## programme
@@ -79,7 +79,7 @@ A terme, le programme sera entrainé avec une bibliothèque permettant
 de faire du deep learning (Pytorch, TensorFlow...). Ainsi, il sera
 possible de disposer pour le jeu d’un panel de modèles de voix,
 issues d’un corpus (audio et texte). Il ne restera alors plus qu’à
-choisir les voix que nousv voudrions jouer, que ce soit la notre ou
+choisir les voix que nous voudrions jouer, que ce soit la notre ou
 bien celle d’une diva, d’un personnage connu...
 Le dévelloppement de ce domaine (text to speech) va bon train, et
 il existe déjà quelques moteurs de synthèse basés sur des IA. Les
