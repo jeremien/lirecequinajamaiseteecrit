@@ -67,14 +67,19 @@ body { counter-reset: chapter; }
 
 /* TEXT ---------------------------------------------------- */
 
-li, h2 { 
+li, h2, h3 { 
     font-size: 1rem;
     font-family: 'Poppins';
     font-weight: 600;
 }
 
-h2 {
+h2, h3 {
     margin-top: 2mm;
+    margin-bottom: 1mm;
+}
+
+h3 {
+    font-size: 0.8rem;
 }
 
 p, em {  
@@ -92,7 +97,10 @@ p img {
 /* blockquote and list */
 
 blockquote, .chapter li{
-    margin: var(--baseline) 1rem;
+    /* margin: var(--baseline) 1rem; */
+    font-family: 'permian';
+    font-weight: normal;
+    /* font-size: 0.8rem; */
 }
 
 blockquote p:before{ content: "“"; }

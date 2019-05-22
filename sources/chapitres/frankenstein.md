@@ -4,13 +4,8 @@ Maëva BORG
 
 Mary Shelley
 
-? 
-
-x
-
 La Collection
 Lire Ce qui n'a jamais été Ecrit 
-
 
 Comment penser l'Edition Numérique/digitale ? 
 Quelle est la place du langage dans le mythe de Frankenstein ?
