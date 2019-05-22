@@ -1,4 +1,4 @@
-# Le chant des données
+# Le chant des données
 
 À l’ère de l’hégémonie du «digital», de nouveaux enjeux de pouvoir
 apparaissent. En effet, alors que les gouvernements prennent

@@ -5,11 +5,13 @@ class Html {
 
     public showdown = require('showdown');
     public converter = new this.showdown.Converter();
+    
     private srcFolder: string;
 
     constructor(private chapitres: string[]) {
         this.chapitres = chapitres;
         this.converter.setOption('noHeaderId', 'true');
+        this.converter.setFlavor('github');
         this.srcFolder = path.join(__dirname + '../../sources/');
     }
 

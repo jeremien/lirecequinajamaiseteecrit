@@ -9,6 +9,7 @@ class Html {
         this.converter = new this.showdown.Converter();
         this.chapitres = chapitres;
         this.converter.setOption('noHeaderId', 'true');
+        this.converter.setFlavor('github');
         this.srcFolder = path.join(__dirname + '../../sources/');
     }
     page() {
