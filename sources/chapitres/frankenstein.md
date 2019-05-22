@@ -1,4 +1,4 @@
-# FrankensteinNative (V1)
+# Frankenstein Native
 
 Maëva BORG
 

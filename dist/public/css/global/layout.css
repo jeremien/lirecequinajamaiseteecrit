@@ -3,24 +3,24 @@
     /* ALL PAGES ----------------------------------------------------------------------- */
 
     @page {
-        size: 148mm 210mm;
-        margin-top: 100px;
-        margin-bottom: 65px;
+        size: 95mm 150mm;
+        margin-top: 90px;
+        margin-bottom: 55px;
     }
 
 
     /* LEFT PAGES ---------------------------------------------------------------------- */
 
     @page :left {
-        margin-left: 36mm;
+        margin-left: 20mm;
         margin-right: 12mm;
 
         /* page number */
         @top-left-corner {
             content: counter(page);
-            font-family: 'hk-grotesk';
+            font-family: 'Poppins';
             font-weight: 600;
-            padding-right: 12mm;
+            padding-right: 8mm;
             vertical-align: top;
             padding-top: 25px;
         }
@@ -36,8 +36,9 @@
     /*  running header (book title) 
         way 1 : keep HTML element and style inside the running header, remove the element from the flux  */
     #booktitle { 
+        font-size: 0.8rem;
         position: running(booktitle); 
-        font-family: 'hk-grotesk';
+        font-family: 'Poppins';
         font-weight: 600;
         text-indent: 0;
     }
@@ -47,14 +48,14 @@
 
     @page :right {
         margin-left: 12mm;
-        margin-right: 36mm;
+        margin-right: 20mm;
 
         /* page number */
         @top-right-corner {
             content: counter(page);
-            font-family: 'hk-grotesk';
+            font-family: 'Poppins';
             font-weight: 600;
-            padding-left: 12mm;
+            padding-left: 8mm;
             vertical-align: top;
             padding-top: 25px;
         }
@@ -62,7 +63,7 @@
         /* running header (chapter title)  */
         @top-right {
             content: string(chapTitle);
-            font-family: 'hk-grotesk';
+            font-family: 'Poppins';
             font-weight: 600;
             vertical-align: top;
             padding-top: 25px;

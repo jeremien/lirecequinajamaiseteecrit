@@ -37,9 +37,9 @@ class Html {
     }
     chapitreName(name) {
         try {
-            const re = /(^#\s[a-zA-Z0-9\s]+\n)/gi;
-            const str = name.match(re);
-            const parsedName = str[0].slice(2);
+            const re = /.*/m;
+            const str = name.match(re)[0];
+            const parsedName = str.slice(2);
             if (parsedName) {
                 return parsedName.trim();
             }
@@ -89,8 +89,9 @@ class Html {
     }
     introduction() {
         let introduction = fs.readFileSync(this.srcFolder + 'introduction.md', 'utf8');
+        const introductionId = this.chapitreId(introduction);
         introduction = this.converter.makeHtml(introduction);
-        const result = '<section id="introduction">' + introduction + '</section>';
+        const result = `<section id="${introductionId}"> ${introduction} </section>`;
         return result;
     }
 }
