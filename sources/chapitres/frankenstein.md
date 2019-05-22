@@ -17,7 +17,7 @@ Avant cela, elle souhaite s'intégrer dans le Monde Humain. Elle en vient à obs
 (retour ligne)
 Cette partie m'intéressait car il y a un lien particulier au langage : La créature ne reçoit pas d'éducation donc n'a donc pas accès au langage. Il réagit de manière primitive et a donc un langage dit natif (langage de programmation) ou Primitif (langage parlé). Et pour s'intégrer, elle tente de parler le langage soutenu, parlé par les autres personnages, d'une classe sociale plus haute, afin de pouvoir être à la hauteur de son créateur. 
 
-![image](http://localhost:3000/images/maeva/bernard.jpg)(pleine page?)
+![image](http://localhost:3000/images/maeva/bernard.jpeg)(pleine page?)
 
 (nouvelle page)
 On peut supposer aujourd'hui qu'avec le cas de l'Intelligence Artificielle soumise au Machine Learning (ou "Apprentissage Machine"), peut être une transposition de la créature. L'Intelligence Artificielle peut en effet apprendre à parler, ou s'entraîner à le faire, avec des paramètres qu'on lui impose. 
@@ -135,7 +135,7 @@ have be as also should that i would not
 
 ![image](http://localhost:3000/images/maeva/Pygmalion_and_Galatea_MET_DT1969.jpg)
 
-![image](http://localhost:3000/images/maeva/01_chronologie créature à l'image de l'homme.jpg)
+![image](http://localhost:3000/images/maeva/01_chronologie.jpg)
 
 ![image](http://localhost:3000/images/maeva/DanseMacabreSkeletonCats.jpg)
 
