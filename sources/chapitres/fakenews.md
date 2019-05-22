@@ -39,4 +39,4 @@ These revenue punch in these company
 The company in a industry
 The revenue around the industry
 
-![image](http://localhost:3000/images/python/exemple_fakenews.jpg)
+![image](http://localhost:3000/images/tanguymanon/exemple_fakenews.jpg)
