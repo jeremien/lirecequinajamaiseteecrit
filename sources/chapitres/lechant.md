@@ -52,7 +52,7 @@ programme et des effets sur le son, dirigé vers une IA de
 synthèse vocale et des modèles de voix issus du deep learning,
 l’ambition est de créer un nouvel outil de création musical.
 
-## descriptif
+## Descriptif
 
 Pour le moment, le programme fonctionne avec le moteur de
 synthèse vocale de l’ordinateur (Espeak sous linux), qui produit
@@ -74,7 +74,7 @@ contrôle le moteur de synthèse au clavier.
 
 ## programme
 
-### _vers une synthèse naturelle
+### vers une synthèse naturelle
 A terme, le programme sera entrainé avec une bibliothèque permettant
 de faire du deep learning (Pytorch, TensorFlow...). Ainsi, il sera
 possible de disposer pour le jeu d’un panel de modèles de voix,
@@ -86,7 +86,7 @@ il existe déjà quelques moteurs de synthèse basés sur des IA. Les
 résultats sont étonnants de fidélité, et il devient ardu de demêler le
 vrai du faux...
 
-### _vers une plus grande jouabilité
+### vers une plus grande jouabilité
 Le deuxième axe de développement du programme sera sa jouabilité.
 Plus de rythmes d’élocution, des effets implémentés au programme
 (patch construits sous pure-data), la possibilté de réaliser des accords,
