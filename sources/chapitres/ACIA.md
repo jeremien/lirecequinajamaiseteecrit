@@ -51,7 +51,14 @@ Flow-Chart
 ## Projet
 
 ### Installation 
-Photos de l'imprimante
+
+![](https://zupimages.net/up/19/21/jkze.jpg)
+
+![](https://zupimages.net/up/19/21/95fd.jpg)
+
+![](https://zupimages.net/up/19/21/1028.jpg)
+
+![](https://zupimages.net/up/19/21/fknm.jpg)
 
 ### Identités
 
