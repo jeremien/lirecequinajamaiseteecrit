@@ -1,5 +1,8 @@
 #  ACIA
 
+Lucas
+Valentin
+
 ## Contexte
 
 Qu'est-ce-que l'identité ? 
@@ -44,28 +47,42 @@ Ses intérêts de recherche actuels tournent autour de l'apprentissage profond, 
  Dans notre projet, nous utilisons la reconnaissance 2D, considérée comme la méthode "classique" de reconnaissance faciale, qui consiste à reconnaitre une personne à partir d'une photo. 
  Nous l’utilisons afin d’extraire trois de ses données, l’âge, le sexe, et les origines.
 
-## Fonctionnement
+#### Logique 
+
+Présentation de la logique du dispositif
+
+#### image
 
 Flow-Chart 
 
-## Projet
+#### Dispositif
 
-### Installation 
+Présentation de la logique du dispositif
 
-![](https://zupimages.net/up/19/21/jkze.jpg)
+#### image
+![full](https://zupimages.net/up/19/21/jkze.jpg)
 
-![](https://zupimages.net/up/19/21/95fd.jpg)
 
-![](https://zupimages.net/up/19/21/1028.jpg)
+#### image
+![full](https://zupimages.net/up/19/21/1028.jpg)
 
-![](https://zupimages.net/up/19/21/fknm.jpg)
+#### image
+![full](https://zupimages.net/up/19/21/fknm.jpg)
 
-### Identités
+#### Cartes d'identité
 
-![](https://i.postimg.cc/CLtsGDv5/7-page-001-1.jpg)
+Présentation de la logique du dispositif
 
-![](https://i.postimg.cc/0ywdcQ3f/8-page-001.jpg)
+#### image
 
-![](https://i.postimg.cc/1z10TS1Z/9-page-001.jpg)
+![full](https://i.postimg.cc/CLtsGDv5/7-page-001-1.jpg)
+
+#### image
+
+![full](https://i.postimg.cc/0ywdcQ3f/8-page-001.jpg)
+
+#### image
+
+![full](https://i.postimg.cc/1z10TS1Z/9-page-001.jpg)
 
 
