@@ -53,21 +53,21 @@ Présentation de la logique du dispositif
 
 #### image
 
-Flow-Chart 
+![full](http://localhost:3000/images/ACIA/flowchart-full.jpeg)
 
 #### Dispositif
 
 Présentation de la logique du dispositif
 
 #### image
-![full](https://zupimages.net/up/19/21/jkze.jpg)
+![full](http://localhost:3000/images/ACIA/fknm-full.jpg)
 
 
 #### image
-![full](https://zupimages.net/up/19/21/1028.jpg)
+![full](http://localhost:3000/images/ACIA/1028-full.jpg)
 
 #### image
-![full](https://zupimages.net/up/19/21/fknm.jpg)
+![full](http://localhost:3000/images/ACIA/jkze-full.jpg)
 
 #### Cartes d'identité
 
@@ -75,14 +75,14 @@ Présentation de la logique du dispositif
 
 #### image
 
-![full](https://i.postimg.cc/CLtsGDv5/7-page-001-1.jpg)
+![full](http://localhost:3000/images/ACIA/7-page-001-1-full.jpg)
 
 #### image
 
-![full](https://i.postimg.cc/0ywdcQ3f/8-page-001.jpg)
+![full](http://localhost:3000/images/ACIA/8-page-001-full.jpg)
 
 #### image
 
-![full](https://i.postimg.cc/1z10TS1Z/9-page-001.jpg)
+![full](http://localhost:3000/images/ACIA/9-page-001-full.jpg)
 
 

@@ -9,8 +9,6 @@ parallèlement à des moyens de stockage appropriés, des systèmes
 de lecture pour traiter des masses de données en constant
 accroissement, le big data.
 
-![image](http://localhost:3000/images/nicolas/chant.jpg)
-
 L’ordinateur, média composite par excellence, peut relayer des
 données issues de tous types de média discrétisé, de comportement;
 provenant de toutes sortes d’individu ou de groupe via internet.
@@ -94,3 +92,56 @@ seront entre autres des améliorations apportées au programme pour le
 rendre «jouable» comme l’on jouerai d’un autre instrument.
 Paralellement, un controleur sera développé, qui permettra d’exploiter
 au mieux toutes les fonctionnalités du programme.
+
+#### Algorithme
+Ce diagramme de flux expose la logique de notre programme 
+
+#### image
+
+![full](http://localhost:3000/images/lechant/flowchart.jpg)
+
+#### Références visuelles
+hans Richter, rhythm
+Henri Nouveau,“Architecture is frozen music”
+Klaus Schulze
+Stockhausen: Elektronische
+kurt schwitters - ursonata
+John Cage, Variations I-III ( 1961)
+R. Haubenstock-Ramati, graphic score
+Peter Cnokrak, love will tear us appart
+
+#### image
+
+![full](http://localhost:3000/images/lechant/hans-richter.jpg)
+
+#### image
+
+![full](http://localhost:3000/images/lechant/henri-nouveau.jpg)
+
+#### image
+
+![full](http://localhost:3000/images/lechant/klaus-schulze.jpg)
+
+#### image
+
+![full](http://localhost:3000/images/lechant/stockahausen1.jpg)
+
+#### image
+
+![full](http://localhost:3000/images/lechant/schwitters.jpg)
+
+#### image
+
+![full](http://localhost:3000/images/lechant/john-cage1.jpg)
+
+#### image
+
+![full](http://localhost:3000/images/lechant/john-cage2.jpg)
+
+#### image
+
+![full](http://localhost:3000/images/lechant/haubenstock.jpg)
+
+#### image
+
+![full](http://localhost:3000/images/lechant/cnokrak.jpg)

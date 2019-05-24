@@ -1,32 +1,30 @@
 # Frankenstein Native
 
-par Maeva Borg.
+Maëva Borg
 
 Comment penser la Collection Numérique ?
 Comment re-penser un classique aujourd'hui ? 
 Quelle est la place du language dans le mythe de Frankenstein ?
 Quelle serait l'histoire racontée par la créature de Frankenstein ? 
-(autre page)
  
 FrankensteinNative est l'AntiLivre/AlterEgo de l'édition réalisée pour "La Collection" sur la Science-Fiction. L'antilivre, terme emprunté à l'edition suisse Abrupt, pense le livre comme un PDF Do It Yourself. C'est-à-dire que le lecteur a le choix ou non de lire le texte dans son format Numérique, mais le fichier est également pensé pour être imprimé, puis relié. 
 
 Dans des critiques littéraires, la créature est considérée comme détentrice de la science divine. Victor Frankenstein est lui, le « créateur de l’humanité », le Prométhée moderne. Dans le mythe de Prométhée, l’homme crée par Prométhée meurt, malgré ses paramètres encore trop faible pour se défendre correctement face aux autres créatures terrestres.
-(retour ligne)
+
 Dans le cas du roman de Mary Shelley, le schéma est agrémenté : Lorsque la créature est rejetée par l’Homme, elle se retourne contre son maître. 
 Avant cela, elle souhaite s'intégrer dans le Monde Humain. Elle en vient à observer une famille où l'éducation d'une étrangère et la découverte des livres lui permettent d'apprendre à parler et à lire.
-(retour ligne)
+
 Cette partie m'intéressait car il y a un lien particulier au langage : La créature ne reçoit pas d'éducation donc n'a donc pas accès au langage. Il réagit de manière primitive et a donc un langage dit natif (langage de programmation) ou Primitif (langage parlé). Et pour s'intégrer, elle tente de parler le langage soutenu, parlé par les autres personnages, d'une classe sociale plus haute, afin de pouvoir être à la hauteur de son créateur. 
 
-![image](http://localhost:3000/images/maeva/bernard.jpeg)(pleine page?)
+#### image
 
-(nouvelle page)
+![full](http://localhost:3000/images/frankenstein/bernard-full.jpg)
+
 On peut supposer aujourd'hui qu'avec le cas de l'Intelligence Artificielle soumise au Machine Learning (ou "Apprentissage Machine"), peut être une transposition de la créature. L'Intelligence Artificielle peut en effet apprendre à parler, ou s'entraîner à le faire, avec des paramètres qu'on lui impose. 
 On lui donne un texte-modèle, et l'intelligence Artificielle passe en revue les mêmes données de manières différentes. On voit alors l'évolution de son entraînements, ses essais de rédaction au plus proche possible de ce texte.
 Pour chaque étapes, il y a une perte indiquée : plus c'est la perte est réduite, plus L'IA est proche du texte de validation.
 
 La concrétisation de cette idée est principalement due à Alan Turing et à son concept de la « machine universelle » en 1932, qui est à la base des ordinateurs d'aujourd'hui. Il continuera à poser les bases de l'apprentissage automatique, avec son article sur « L'ordinateur et l'intelligence » en 1953, dans lequel il développe, entre autres, le test de Turing.
-
-(nouvelle page)
 
 La première version de FrankensteinNative ne contient pas de Machine Learning, mais un programme avec le procédé de la Chaîne de Markov. Les deux processus parlent en effet de statistiques, mais celui de Markov fonctionne surtout par probabilités.
 
@@ -41,17 +39,40 @@ Un programme informatique en code natif (ou langage machine) est composé d'inst
 De ce fait, ce résultat généré serait une proposition de ce que serait l'histoire racontée par la créature, et non pas par les humains.
 
 AntiLivre, Poésie Concrete et Machine Learning sont alors liés.
- 
-![image](http://localhost:3000/images/maeva/victor-limsila-wip-002-mo-4k.jpg)
 
+#### Algorithme
+Ce diagramme de flux expose la logique de notre programme 
 
-Supports (techniques, et textes) utilisés :
+#### image
+
+![full](http://localhost:3000/images/fakenews/progra-full.jpg)
+
+#### Références visuelles
+Technique du cut-up.
+William Burroughs et Brion Gysin,  The Third Mind, 1977.
+
+#### image
+
+![full](http://localhost:3000/images/frankenstein/victor-full.jpg)
+
+#### image
+
+![full](http://localhost:3000/images/frankenstein/Pygmalion_and_Galatea-full.jpg)
+
+#### image
+
+![full](http://localhost:3000/images/frankenstein/chronologie.jpg)
+
+#### image
+
+![full](http://localhost:3000/images/frankenstein/DanseMacabreSkeletonCats-full.jpg)
+
+#### Références techniques et conceptuelles
+
 - Project Gutenberg's Frankenstein, 
 by Mary Wollstonecraft (Godwin) Shelley 
 - Machine Learning
 - Chaîne de Markov 
-
-Références :
 - Allison Parish, « Frankenstein chatbot parade » : http://portfolio.decontextualize.com/
 - Collectif Algolittéraire  http://www.algolit.net/index.php/Main_Page
 - Frankenstein ; Ou, le Promethee moderne, de Mary Shelley. 
@@ -59,8 +80,7 @@ Références :
 - https://abrupt.ch/antilivre/
 - https://objetpapier.fr/
 
-(autre page)
-
+#### Sources
 
 MarkovChain with value 4 : 
 av': {'e': 1}, 'save': {' ': 1}, 'ct m': {'e': 1}, 'e  y': {'o': 1}, 'r fa': {'m': 1}, 'i se': {'e': 1}, 'seek': {' ': 1}, 'eek ': {' ': 1}, 'ek  ': {'d': 1}, 'k  d': {'o': 1}, 'u de': {'s': 1}, 'ert ': {'m': 1}, 'rt m': {'e': 1}, 'al  ': {'g': 1}, 'l  g': {'r': 1}, '  gr': {'e': 1}, 'at g': {'o': 1}, 'od e': {'x': 1}, 'ho a': {'r': 1}, 'o ar': {'e': 1}, 'u  a': {'t': 1}, 'ge d': {'o': 1}, 's op': {'e': 1}, ' ope': {'n': 1}, 'open': {'e': 1}, 'pene': {'d': 1}, 'ix s': {'a': 1}, 'x sa': {'f': 1}, 'ha e': {'n': 1}, 'a en': {'t': 1}, 'd  w': {'h': 1}, 'ho c': {'a': 1}, 'o ca': {'n': 1}, 'an d': {'e': 1}, 'erna': {'t': 2}, 'rnat': {'i': 1, 'u': 1}, 'ldin': {'g': 1}, 'g me': {' ': 1}, 'ha f': 
@@ -68,7 +88,7 @@ av': {'e': 1}, 'save': {' ': 1}, 'ct m': {'e': 1}, 'e  y': {'o': 1}, 'r fa': {'m
 MarkovChain with value 8 :
 'y pain a': {'n': 1}, ' pain an': {'d': 1}, 'pain and': {' ': 1}, 'n and an': {'g': 1}, ' and ang': {'u': 1}, 'and angu': {'i': 1}, 'nd angui': {'s': 1}, 'd anguis': {'h': 1}, ' anguish': {' ': 1}, 'anguish ': {'i': 1}, 'nguish i': {' ': 1}, 'guish i ': {'q': 1}, 'uish i q': {'u': 1}, 'ish i qu': {'i': 1}, 'sh i qui': {'t': 1}, 'h i quit': {'t': 1}, ' i quitt': {'e': 1}, 'i quitte': {'d': 1}, ' quitted': {' ': 1}, 'quitted ': {'t': 1}, 'uitted t': {'h': 1}, 'itted th': {'e': 1}, 'tted the': {' ': 1}, 'ed the c': {'o': 1}, 'ottage a': {'n': 1}, 'ttage an': {'d': 1}, 'tage and': {' ': 1}, 'ge and i': {'n': 1}, 'n the ge': {'n': 1}, 'the gene': {'r': 1}, 'he gener': {'a': 1}, 'e genera': {'l': 1}, ' general': {' ': 1}, 'general ': {'t': 1}, 'eneral t': {'u': 1}, 'neral tu': {'m': 1}, 'eral tum': {'u': 1}, 'ral tumu': {'l': 1}, 'al tumul': {'t': 1}, 'l tumult': {' ': 1}, ' tumult ': {'e': 1}, 'tumult e': {'s': 1}, 'umult es': {'c': 1}, 'mult esc': {'a': 1}, 'ult esca': {'p': 1}, 'lt escap': {'e': 1}, 't escape': {'d': 1}, ' escaped': {' ': 1}, 'escaped ': {'u': 1}, 'scaped u': {'n': 1}, 'caped un': {'p': 1}, 'aped unp': {'e': 1}, 'ped unpe': {'r': 1}, 'ed unper': {'c': 1}, 'd unperc': {'e': 1}, ' unperce': {'i': 1}, 'unpercei': {'v': 1}, 'nperceiv': {'e': 1}, 'perceive': {'d': 1}, 'erceived': {' ': 1}, 'rceived ': {'t': 1}, 'ceived t': {'o': 1}, 'eived to': {' ': 1}, 'ived to ': {'m': 1}, 'ved to m': {'y': 1}}
 
-(autre page)
+#### Résultats
 
 ith a sudden i look
 mystem of a the sainted watchings
@@ -133,10 +153,5 @@ as if possession or me from its we
 have be as also should that i would not
 
 
-![image](http://localhost:3000/images/maeva/Pygmalion_and_Galatea_MET_DT1969.jpg)
-
-![image](http://localhost:3000/images/maeva/01_chronologie.jpg)
-
-![image](http://localhost:3000/images/maeva/DanseMacabreSkeletonCats.jpg)
 
 

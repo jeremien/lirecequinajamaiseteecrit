@@ -6,15 +6,20 @@ Tanguy
 De nos jours internet est le principal lieu d’information, nous avons donc concentré nos recherches sur les médias. Un article est un moyen de communication impactant. Le choix des mots, les tournures de phrases ont une importance primordiale. Il semble facile de  manipuler les lecteurs avec des mots. Partant d’une information brut chaque journal partagera un point de vue distinct selon ces valeurs, son orientation politique. Les lecteurs sont alors informés d’un point de vue précis et subjectif, pourtant ces données sont souvent considérées comme objectives. 
 Par exemple un auteur écrit deux articles sur le même événement pour deux journaux différents avec un point de vue opposé. « Le Figaro: «Sur la ‘route des chicanes’, les zadistes font toujours la loi», tandis que Libération:  «A Notre-Dame-des-Lanes, les derniers instants des ‘chicanes’».» écrit par  Guilaume Frouin. Nous avons à nouveau transformé l’information grâce à la technique du Cut up en référence à Brion Gysin. Ainsi notre programme génère chaque jour une phrase aléatoire absurde «résumant» l’actualité de la journée sur un thème précis. Une certaine poésie en découle, des images mentales se créent nous invitant à réfléchir sur l’actualité, la force des mots. 
 
-#### Dispositif
-
-Présentation de la logique du dispositif
-
-william burroughs et brion gysin the third mind technique du cut-up
+#### Algorithme
+Ce diagramme de flux expose la logique de notre programme 
 
 #### image
 
-![full](https://designobserver.com/media/images/39186-tumblr_nd428ekBun1tts3lho1_1280.jpg)
+![full](http://localhost:3000/images/fakenews/progra-full.jpg)
+
+#### Référence
+Technique du cut-up.
+William Burroughs et Brion Gysin,  The Third Mind, 1977.
+
+#### image
+
+![full](http://localhost:3000/images/fakenews/cut-up-full.jpg)
 
 #### Articles sources
 
@@ -56,11 +61,6 @@ These revenue punch in these company
 The company in a industry
 The revenue around the industry
 
-
-#### Dispositif
-
-Présentation de la logique du dispositif
-
 #### image
 
-![full](http://localhost:3000/images/tanguymanon/exemple_fakenews.jpg)
+![full](http://localhost:3000/images/fakenews/exemple_fakenews-full.jpg)
