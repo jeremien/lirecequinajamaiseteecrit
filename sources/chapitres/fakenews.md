@@ -10,6 +10,8 @@ Par exemple un auteur écrit deux articles sur le même événement pour deux jo
 
 Présentation de la logique du dispositif
 
+william burroughs et brion gysin the third mind technique du cut-up
+
 #### image
 
 ![full](https://designobserver.com/media/images/39186-tumblr_nd428ekBun1tts3lho1_1280.jpg)
