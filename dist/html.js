@@ -18,7 +18,8 @@ class Html {
         const toc = this.toc();
         const introduction = this.introduction();
         const body = this.body();
-        const result = head.concat(cover + toc + introduction + body + '</body>');
+        const colophon = this.colophon();
+        const result = head.concat(cover + toc + introduction + body + colophon + '</body>');
         return result;
     }
     body() {
@@ -72,6 +73,10 @@ class Html {
     cover() {
         const cover = fs.readFileSync(this.srcFolder + 'cover.html', 'utf8');
         return cover;
+    }
+    colophon() {
+        const colophon = fs.readFileSync(this.srcFolder + 'colophon.html', 'utf8');
+        return colophon;
     }
     toc() {
         const introduction = fs.readFileSync(this.srcFolder + 'introduction.md', 'utf8');

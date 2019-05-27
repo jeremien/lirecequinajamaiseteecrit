@@ -45,7 +45,7 @@ Ce diagramme de flux expose la logique de notre programme
 
 #### image
 
-![full](http://localhost:3000/images/fakenews/progra-full.jpg)
+![full](http://localhost:3000/images/frankenstein/flowchart.jpg)
 
 #### Références visuelles
 Technique du cut-up.

@@ -21,7 +21,8 @@ class Html {
         const toc: string = this.toc();
         const introduction: string = this.introduction();
         const body: string = this.body();
-        const result = head.concat(cover + toc + introduction + body + '</body>');
+        const colophon: string = this.colophon();
+        const result = head.concat(cover + toc + introduction + body + colophon + '</body>');
         return result;
     }
 
@@ -77,6 +78,11 @@ class Html {
     private cover(): string {
         const cover: string = fs.readFileSync(this.srcFolder + 'cover.html', 'utf8');
         return cover;
+    }
+
+    private colophon(): string {
+        const colophon: string = fs.readFileSync(this.srcFolder + 'colophon.html', 'utf8');
+        return colophon;
     }
 
     private toc(): string {

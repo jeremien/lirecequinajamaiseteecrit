@@ -1,5 +1,7 @@
 # Le chant des données
 
+Nicolas Mars
+
 À l’ère de l’hégémonie du «digital», de nouveaux enjeux de pouvoir
 apparaissent. En effet, alors que les gouvernements prennent
 seulement conscience de l’importance de légiférer sur l’usage de la
