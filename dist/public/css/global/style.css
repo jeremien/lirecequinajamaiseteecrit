@@ -80,7 +80,7 @@ h2, h3 {
 
 h3, h4 {
     font-size: 0.8rem;
-
+    line-height: 1rem;
 }
 
 h4 {
@@ -92,6 +92,12 @@ p, em {
     font-size: 1rem;
     /* text-indent: 1rem; */
     text-align: left;
+}
+
+a {
+    font-family: 'permian';
+    /* font-size: 1rem; */
+    text-decoration: underline;
 }
 
 p {

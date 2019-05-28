@@ -1,25 +1,33 @@
 # fake news
 
-Manon Freulon
-Tanguy Troubat
+**Manon Freulon**
+**Tanguy Troubat**
 
-De nos jours internet est le principal lieu d’information, nous avons donc concentré nos recherches sur les médias. Un article est un moyen de communication impactant. Le choix des mots, les tournures de phrases ont une importance primordiale. Il semble facile de  manipuler les lecteurs avec des mots. Partant d’une information brut chaque journal partagera un point de vue distinct selon ces valeurs, son orientation politique. Les lecteurs sont alors informés d’un point de vue précis et subjectif, pourtant ces données sont souvent considérées comme objectives. 
-Par exemple un auteur écrit deux articles sur le même événement pour deux journaux différents avec un point de vue opposé. « Le Figaro: «Sur la ‘route des chicanes’, les zadistes font toujours la loi», tandis que Libération:  «A Notre-Dame-des-Lanes, les derniers instants des ‘chicanes’».» écrit par  Guilaume Frouin. Nous avons à nouveau transformé l’information grâce à la technique du Cut up en référence à Brion Gysin. Ainsi notre programme génère chaque jour une phrase aléatoire absurde «résumant» l’actualité de la journée sur un thème précis. Une certaine poésie en découle, des images mentales se créent nous invitant à réfléchir sur l’actualité, la force des mots. 
-
-#### Algorithme
-Ce diagramme de flux expose la logique de notre programme 
-
-#### image
-
-![full](http://localhost:3000/images/fakenews/progra-full.jpg)
+De nos jours internet est le principal lieu d’information, nous avons donc concentré nos recherches sur les médias de masse. Un article est un moyen de communication impactant. Le choix des mots, les tournures de phrases ont une importance primordiale. Il semble facile de  manipuler les lecteurs avec des mots. Partant d’une information brute, chaque journal partagera un point de vue distinct selon ces valeurs, son orientation politique. 
+Les lecteurs sont alors informés d’un point de vue précis et subjectif, pourtant ces données sont souvent considérées comme objectives. 
+Par exemple un auteur écrit deux articles sur le même événement pour deux journaux différents avec un point de vue opposé. *Le Figaro:* «Sur la ‘route des chicanes’, les zadistes font toujours la loi», tandis que *Libération*:  «A Notre-Dame-des-Lanes, les derniers instants des ‘chicanes’».» écrit par  Guilaume Frouin. Nous avons à nouveau transformé l’information grâce à la technique du *Cut up* en référence à Brion Gysin. Ainsi notre programme génère chaque jour une phrase aléatoire absurde *résumant* l’actualité de la journée sur un thème précis. 
+Une certaine poésie en découle, des images mentales se créent nous invitant à réfléchir sur l’actualité, la force des mots. 
 
 #### Référence
 Technique du cut-up.
-William Burroughs et Brion Gysin,  The Third Mind, 1977.
+William Burroughs et Brion Gysin,  *The Third Mind*, 1977.
 
 #### image
 
 ![full](http://localhost:3000/images/fakenews/cut-up-full.jpg)
+
+
+#### Diagramme de flux 
+
+Présentation de la logique du dispositif
+
+#### image
+
+![full](http://localhost:3000/images/fakenews/flowchart.svg)
+
+#### Dispositif
+
+Quelques extraits des sources du dispositif
 
 #### Articles sources
 
@@ -45,7 +53,7 @@ The UK's social safety net has been "deliberately removed and replaced with a ha
 
 DATE: 2019-05-22T06:00:28Z
 
-#### Phrases générées brut
+#### Phrases générées brutes
 
 ['The', 'year', 'Jefferies', 'by', 'The', 'revenue']
 ['these', 'Elon', 'Jefferies', 'from', 'these', 'Musk']
@@ -60,6 +68,10 @@ These elon Jefferies from these Musk
 These revenue punch in these company
 The company in a industry
 The revenue around the industry
+
+#### Résultats
+
+Un exemple de composition générée par le programme
 
 #### image
 
