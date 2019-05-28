@@ -42,6 +42,11 @@ a{ color: currentColor; text-decoration: none; }
     margin-bottom: calc(var(--baseline)*2);
 }
 
+.colophon h4 p a {
+    font-size: 0.7rem;
+    line-height: 0.8rem;
+}
+
 .chapter h1 + p, 
 #introduction h1 + p,
 #prefatory-note h1 + p{
@@ -85,9 +90,10 @@ h3, h4 {
 
 h4 {
     page-break-before: always;
+    margin-bottom: 0.3rem;
 }
 
-p, em {  
+p, em, strong {  
     font-family: 'permian';
     font-size: 1rem;
     /* text-indent: 1rem; */

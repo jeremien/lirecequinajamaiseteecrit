@@ -48,14 +48,12 @@ Présentation de la logique du dispositif
 
 ![full](http://localhost:3000/images/lechant/flowchart.svg)
 
-#### Références visuelles
+#### Légendes
 hans Richter, *Rhythmus 21*, 1921
 Henri Nouveau, *Architecture is frozen music*, 1928
 Klaus Schulze, 1977
-<!-- Stockhausen, *Elektronische* -->
 kurt schwitters, *Ursonate*, 1932
 John Cage, *Variations I-III*, 1961
-<!-- R. Haubenstock-Ramati, *graphic score* -->
 Peter Cnokrak, *Love will tear us appart again*, 2013
 
 #### image
@@ -70,10 +68,6 @@ Peter Cnokrak, *Love will tear us appart again*, 2013
 
 ![full](http://localhost:3000/images/lechant/klaus-schulze.jpg)
 
-<!-- #### image
-
-![full](http://localhost:3000/images/lechant/stockahausen1.jpg) -->
-
 #### image
 
 ![full](http://localhost:3000/images/lechant/schwitters.jpg)
@@ -81,14 +75,6 @@ Peter Cnokrak, *Love will tear us appart again*, 2013
 #### image
 
 ![full](http://localhost:3000/images/lechant/john-cage1.jpg)
-
-<!-- #### image
-
-![full](http://localhost:3000/images/lechant/john-cage2.jpg) -->
-
-<!-- #### image
-
-![full](http://localhost:3000/images/lechant/haubenstock.jpg) -->
 
 #### image
 

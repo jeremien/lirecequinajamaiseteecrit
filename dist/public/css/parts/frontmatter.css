@@ -81,12 +81,13 @@
 
     #copyright p{
         text-indent: 0;
-        font-family: 'hk-grotesk';
+        font-family: 'permian';
         font-weight: 500;
-        font-style: italic;
-        font-size: 0.7rem;
-        line-height: calc(var(--baseline)*1);
+        /* font-style: italic; */
+        font-size: 0.6rem;
+        line-height: calc(var(--baseline)*0.6);
         text-indent: 0;
+        width: 80%;
     }
 
 

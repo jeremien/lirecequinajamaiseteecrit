@@ -81,7 +81,6 @@
     #toc, 
     #prefatory-note,
     #introduction, 
-    #colophon,
     #toc {
         break-before: right;
     }
@@ -92,6 +91,11 @@
 
     figure {
         break-inside: avoid;
+    }
+
+    #colophon {
+        break-before: right;
+        break-after: left;
     }
 
 
