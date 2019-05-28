@@ -26,10 +26,6 @@ Photogrammes de la série *Westworld*, 2016
 
 ![full](http://localhost:3000/images/frankenstein/bernard-full.jpg)
 
-<!-- #### image
-
-![full](http://localhost:3000/images/frankenstein/victor-full.jpg) -->
-
 #### image
 
 ![full](http://localhost:3000/images/frankenstein/Pygmalion_and_Galatea-full.jpg)
@@ -44,7 +40,7 @@ Photogrammes de la série *Westworld*, 2016
 
 #### L'intelligence des créatures-machines 
 
-On peut supposer aujourd'hui que dans le cas de l'Intelligence Artificielle soumise au Machine Learning (ou "Apprentissage Machine"), peut être une transposition de la créature. L'Intelligence Artificielle peut en effet apprendre à parler, ou s'entraîner à le faire, avec des paramètres qu'on lui impose. 
+On peut supposer aujourd'hui que dans le cas de l'Intelligence Artificielle soumise au Machine Learning (ou *Apprentissage Machine*), peut être une transposition de la créature. L'Intelligence Artificielle peut en effet apprendre à parler, ou s'entraîner à le faire, avec des paramètres qu'on lui impose. 
 On lui donne un texte-modèle, et l'intelligence Artificielle passe en revue les mêmes données de manières différentes. On voit alors l'évolution de son entraînements, ses essais de rédaction au plus proche possible de ce texte.
 Pour chaque étapes, il y a une perte indiquée : plus c'est la perte est réduite, plus L'IA est proche du texte de validation.
 
@@ -52,7 +48,7 @@ La concrétisation de cette idée est principalement due à Alan Turing et à so
 
 La première version de *FrankensteinNative* ne contient pas de Machine Learning, mais un programme avec le procédé *des chaînes de Markov*. Les deux processus parlent en effet de statistiques, mais celui de Markov fonctionne surtout par probabilités.
 
-Les chaînes de Markov portent le nom de leur inventeur, Andreï Markov.(1906)
+Les chaînes de Markov portent le nom de leur inventeur, Andreï Markov (1906).
 « L'information utile pour la prédiction du futur est entièrement contenue dans l'état présent du processus et n'est pas dépendante des états antérieurs (le système n'a pas de *mémoire*) ». Les processus de Markov sont liés au mouvement brownien et à l'hypothèse ergodique, deux sujets de physique statistique qui ont été très importants au début du xxe siècle.
 
 Dans le cas du texte littéraire, La chaine de Markov va prendre deux éléments, ici deux parties d'un même chapitre. Le processus est donc *conscient* du nombre de caractères qu'on lui donne, les analyse, puis mélange de manière aléatoire des éléments des deux textes, par probabilité.

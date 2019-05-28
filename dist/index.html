@@ -3,7 +3,7 @@
         <head>
             <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
             <meta content="width=device-width, initial-scale=1" name="viewport">
-            <title>blob</title>
+            <title>Lire ce qui n'a jamais été écrit</title>
             <meta name="description" content="Example of a book design with paged.js" />
             <meta name="copyright" content="MIT License (MIT)" />
             <meta name="DC.Date.created" scheme="W3CDTF" content="2018-03-18" />
@@ -12,9 +12,9 @@
             <link href="fonts/permian/stylesheet.css" rel="stylesheet" type="text/css">
 </head><body><section id="cover">
     <h1 id="title">lire ce qui n’a jamais été écrit</h1>
-    <!-- <img src="images/Dd4aXZBU0AAwAmT.jpg" /> -->
+    <img src="images/Dd4aXZBU0AAwAmT.jpg" />
     <!-- <img src="https://motherboard-images.vice.com/content-images/contentimage/26556/1444666824347969.jpg" /> -->
-    <img src="https://motherboard-images.vice.com/content-images/contentimage/26556/1444666886307342.jpg" />
+    <!-- <img src="https://motherboard-images.vice.com/content-images/contentimage/26556/1444666886307342.jpg" /> -->
     <!-- <h2 id="author"></h2> -->
     <p id="booktitle">lire ce qui n’a jamais été écrit</p>
 </section>
@@ -35,6 +35,7 @@
     <p>Cette édition a été entièrement réalisée avec des outils informatiques libres (Git, Fonts, Inkscape, Markdown, Paged.js).
        <br>Les sources sont disponibles à cette adresse : framagit.org/randomlab/book.lirecequinajamaiseteecrit
    </p> 
+   <p>Les images de couverture proviennent de l'article suivant : https://www.vice.com/en_us/article/ae35pe/public-blue-screens-of-death-remind-us-that-life-is-a-farce</p>
 </section>
 
 <section id="halftitle">
@@ -165,9 +166,6 @@ Avant cela, elle souhaite s'intégrer dans le Monde Humain. Elle en vient à obs
 <em>The Skeleton Dance</em>, 1929</p>
 <h4>image</h4>
 <p><img src="http://localhost:3000/images/frankenstein/bernard-full.jpg" alt="full" /></p>
-<!-- #### image
-
-![full](http://localhost:3000/images/frankenstein/victor-full.jpg) -->
 <h4>image</h4>
 <p><img src="http://localhost:3000/images/frankenstein/Pygmalion_and_Galatea-full.jpg" alt="full" /></p>
 <h4>image</h4>
@@ -175,12 +173,12 @@ Avant cela, elle souhaite s'intégrer dans le Monde Humain. Elle en vient à obs
 <h4>image</h4>
 <p><img src="http://localhost:3000/images/frankenstein/DanseMacabreSkeletonCats-full.jpg" alt="full" /></p>
 <h4>L'intelligence des créatures-machines</h4>
-<p>On peut supposer aujourd'hui que dans le cas de l'Intelligence Artificielle soumise au Machine Learning (ou "Apprentissage Machine"), peut être une transposition de la créature. L'Intelligence Artificielle peut en effet apprendre à parler, ou s'entraîner à le faire, avec des paramètres qu'on lui impose. <br />
+<p>On peut supposer aujourd'hui que dans le cas de l'Intelligence Artificielle soumise au Machine Learning (ou <em>Apprentissage Machine</em>), peut être une transposition de la créature. L'Intelligence Artificielle peut en effet apprendre à parler, ou s'entraîner à le faire, avec des paramètres qu'on lui impose. <br />
 On lui donne un texte-modèle, et l'intelligence Artificielle passe en revue les mêmes données de manières différentes. On voit alors l'évolution de son entraînements, ses essais de rédaction au plus proche possible de ce texte.<br />
 Pour chaque étapes, il y a une perte indiquée : plus c'est la perte est réduite, plus L'IA est proche du texte de validation.</p>
 <p>La concrétisation de cette idée est principalement due à Alan Turing et à son concept de la <em>machine universelle</em> en 1932, qui est à la base des ordinateurs d'aujourd'hui. Il continuera à poser les bases de l'apprentissage automatique, avec son article sur <em>L'ordinateur et l'intelligence</em> en 1953, dans lequel il développe, entre autres, le test de Turing.</p>
 <p>La première version de <em>FrankensteinNative</em> ne contient pas de Machine Learning, mais un programme avec le procédé <em>des chaînes de Markov</em>. Les deux processus parlent en effet de statistiques, mais celui de Markov fonctionne surtout par probabilités.</p>
-<p>Les chaînes de Markov portent le nom de leur inventeur, Andreï Markov.(1906)<br />
+<p>Les chaînes de Markov portent le nom de leur inventeur, Andreï Markov (1906).<br />
 « L'information utile pour la prédiction du futur est entièrement contenue dans l'état présent du processus et n'est pas dépendante des états antérieurs (le système n'a pas de <em>mémoire</em>) ». Les processus de Markov sont liés au mouvement brownien et à l'hypothèse ergodique, deux sujets de physique statistique qui ont été très importants au début du xxe siècle.</p>
 <p>Dans le cas du texte littéraire, La chaine de Markov va prendre deux éléments, ici deux parties d'un même chapitre. Le processus est donc <em>conscient</em> du nombre de caractères qu'on lui donne, les analyse, puis mélange de manière aléatoire des éléments des deux textes, par probabilité.<br />
 Imaginons que les lettres de <em>Monster</em> apparaîssent 20 fois dans le même chapitre, il aura donc plus de chance que ces lettres apparaissent dans le nouveau texte, généré par le processus. </p>
