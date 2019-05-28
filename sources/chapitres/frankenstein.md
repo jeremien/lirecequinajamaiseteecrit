@@ -3,18 +3,18 @@
 **Maëva Borg**
 
 Comment penser la Collection Numérique ?
-Comment re-penser un classique aujourd'hui ? 
-Quelle est la place du language dans le mythe de Frankenstein ?
+Comment repenser un classique aujourd'hui ? 
+Quelle est la place du langage dans le mythe de Frankenstein ?
 Quelle serait l'histoire racontée par la créature de Frankenstein ? 
  
-*FrankensteinNative* est l'AntiLivre/AlterEgo de l'édition réalisée pour *La Collection* sur la Science-Fiction. *L'antilivre*, terme emprunté à l'éditeur suisse *Abrüpt*, pense le livre comme un PDF Do It Yourself. C'est-à-dire que le lecteur a le choix ou non de lire le texte dans son format Numérique, mais le fichier est également pensé pour être imprimé, puis relié. 
+*FrankensteinNative* est l'AntiLivre/AlterEgo de l'édition réalisée pour *La Collection* sur la Science-Fiction. *L'antilivre*, terme emprunté à l'éditeur suisse *Abrüpt*, pense le livre comme un PDF Do It Yourself. C'est-à-dire que le lecteur a le choix ou non, de lire le texte dans son format Numérique, mais le fichier est également pensé pour être imprimé, puis relié. 
 
-Dans des critiques littéraires, la créature est considérée comme détentrice de la science divine. Victor Frankenstein est lui, le *créateur de l’humanité*, le Prométhée moderne. Dans le mythe de Prométhée, l’homme crée par Prométhée meurt, malgré ses paramètres encore trop faible pour se défendre correctement face aux autres créatures terrestres.
+Dans des critiques littéraires, la créature est considérée comme détentrice de la science divine. Victor Frankenstein est lui, le *créateur de l’humanité*, le Prométhée moderne. Dans le mythe de Prométhée, l’homme créé par Prométhée meurt, malgré ses paramètres encore est trop faible pour se défendre correctement face aux autres créatures terrestres.
 
-Dans le cas du roman de Mary Shelley, le schéma est agrémenté : Lorsque la créature est rejetée par l’Homme, elle se retourne contre son maître. 
+Dans le cas du roman de Mary Shelley, le schéma est agrémenté : lorsque la créature est rejetée par l’Homme, elle se retourne contre son maître. 
 Avant cela, elle souhaite s'intégrer dans le Monde Humain. Elle en vient à observer une famille où l'éducation d'une étrangère et la découverte des livres lui permettent d'apprendre à parler et à lire.
 
-Cette partie m'intéressait car il y a un lien particulier au langage : La créature ne reçoit pas d'éducation donc n'a donc pas accès au langage. Il réagit de manière primitive et a donc un langage dit natif (langage de programmation) ou Primitif (langage parlé). Et pour s'intégrer, elle tente de parler le langage soutenu, parlé par les autres personnages, d'une classe sociale plus haute, afin de pouvoir être à la hauteur de son créateur. 
+Cette partie m'intéressait, car il y a un lien particulier au langage : la créature ne reçoit pas d'éducation donc n'a donc pas accès au langage. Il réagit de manière primitive et a donc un langage dit natif (langage de programmation) ou primitif (langage parlé). Et pour s'intégrer, elle tente de parler le langage soutenu, parlé par les autres personnages, d'une classe sociale plus haute, afin de pouvoir être à la hauteur de son créateur. 
 
 #### Légendes
 Photogrammes de la série *Westworld*, 2016
@@ -41,8 +41,8 @@ Photogrammes de la série *Westworld*, 2016
 #### L'intelligence des créatures-machines 
 
 On peut supposer aujourd'hui que dans le cas de l'Intelligence Artificielle soumise au Machine Learning (ou *Apprentissage Machine*), peut être une transposition de la créature. L'Intelligence Artificielle peut en effet apprendre à parler, ou s'entraîner à le faire, avec des paramètres qu'on lui impose. 
-On lui donne un texte-modèle, et l'intelligence Artificielle passe en revue les mêmes données de manières différentes. On voit alors l'évolution de son entraînements, ses essais de rédaction au plus proche possible de ce texte.
-Pour chaque étapes, il y a une perte indiquée : plus c'est la perte est réduite, plus L'IA est proche du texte de validation.
+On lui donne un texte-modèle, et l'intelligence Artificielle passe en revue les mêmes données de manières différentes. On voit alors l'évolution de son entraînement, ses essais de rédaction au plus proche possible de ce texte.
+Pour chaque étape, il y a une perte indiquée : plus c'est la perte est réduite, plus L'IA est proche du texte de validation.
 
 La concrétisation de cette idée est principalement due à Alan Turing et à son concept de la *machine universelle* en 1932, qui est à la base des ordinateurs d'aujourd'hui. Il continuera à poser les bases de l'apprentissage automatique, avec son article sur *L'ordinateur et l'intelligence* en 1953, dans lequel il développe, entre autres, le test de Turing.
 
@@ -51,8 +51,8 @@ La première version de *FrankensteinNative* ne contient pas de Machine Learning
 Les chaînes de Markov portent le nom de leur inventeur, Andreï Markov (1906).
 « L'information utile pour la prédiction du futur est entièrement contenue dans l'état présent du processus et n'est pas dépendante des états antérieurs (le système n'a pas de *mémoire*) ». Les processus de Markov sont liés au mouvement brownien et à l'hypothèse ergodique, deux sujets de physique statistique qui ont été très importants au début du xxe siècle.
 
-Dans le cas du texte littéraire, La chaine de Markov va prendre deux éléments, ici deux parties d'un même chapitre. Le processus est donc *conscient* du nombre de caractères qu'on lui donne, les analyse, puis mélange de manière aléatoire des éléments des deux textes, par probabilité.
-Imaginons que les lettres de *Monster* apparaîssent 20 fois dans le même chapitre, il aura donc plus de chance que ces lettres apparaissent dans le nouveau texte, généré par le processus. 
+Dans le cas du texte littéraire, la chaîne de Markov va prendre deux éléments, ici deux parties d'un même chapitre. Le processus est donc *conscient* du nombre de caractères qu'on lui donne, les analyse, puis mélange de manière aléatoire des éléments des deux textes, par probabilité.
+Imaginons que les lettres de *Monster* apparaissent 20 fois dans le même chapitre, il aura donc plus de chance que ces lettres apparaissent dans le nouveau texte, généré par le processus. 
 
 Un programme informatique en code natif (ou langage machine) est composé d'instructions directement reconnues par un processeur.
 De ce fait, ce résultat généré serait une proposition de ce que serait l'histoire racontée par la créature, et non pas par les humains.
